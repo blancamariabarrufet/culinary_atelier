@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/page",{
+
+/***/ "(app-pages-browser)/./app/page.module.css":
+/*!*****************************!*\
+  !*** ./app/page.module.css ***!
+  \*****************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("// extracted by mini-css-extract-plugin\nmodule.exports = {\"page\":\"page_page__556_G\",\"hero\":\"page_hero__7KFOs\",\"heroTitle\":\"page_heroTitle__ixXIp\",\"heroSubtitle\":\"page_heroSubtitle__ZW2Yq\",\"section\":\"page_section__zQZ2o\",\"sectionHeader\":\"page_sectionHeader___raMx\",\"sectionTag\":\"page_sectionTag__x8zz3\",\"sectionTitle\":\"page_sectionTitle__6ic_4\",\"recipeGrid\":\"page_recipeGrid__TRnX3\",\"card\":\"page_card__Cf__u\",\"cardImage\":\"page_cardImage__aHl9E\",\"cardImg\":\"page_cardImg__rHYKT\",\"cardBody\":\"page_cardBody__X5bf8\",\"cardTag\":\"page_cardTag__gCeAY\",\"cardTitle\":\"page_cardTitle__T08IG\",\"cardDesc\":\"page_cardDesc__owQ1w\"};\n    if(true) {\n      // 1774733779564\n      var cssReload = __webpack_require__(/*! ./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js */ \"(app-pages-browser)/./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"/_next/\",\"esModule\":false,\"locals\":true});\n      module.hot.dispose(cssReload);\n      \n    }\n  \nmodule.exports.__checksum = \"6a3112a4c7f6\"\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL2FwcC9wYWdlLm1vZHVsZS5jc3MiLCJtYXBwaW5ncyI6IkFBQUE7QUFDQSxrQkFBa0I7QUFDbEIsT0FBTyxJQUFVO0FBQ2pCO0FBQ0Esc0JBQXNCLG1CQUFPLENBQUMsd01BQStJLGNBQWMsc0RBQXNEO0FBQ2pQLE1BQU0sVUFBVTtBQUNoQjtBQUNBO0FBQ0E7QUFDQSx5QkFBeUIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vYXBwL3BhZ2UubW9kdWxlLmNzcz84ZWViIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpblxubW9kdWxlLmV4cG9ydHMgPSB7XCJwYWdlXCI6XCJwYWdlX3BhZ2VfXzU1Nl9HXCIsXCJoZXJvXCI6XCJwYWdlX2hlcm9fXzdLRk9zXCIsXCJoZXJvVGl0bGVcIjpcInBhZ2VfaGVyb1RpdGxlX19peFhJcFwiLFwiaGVyb1N1YnRpdGxlXCI6XCJwYWdlX2hlcm9TdWJ0aXRsZV9fWlcyWXFcIixcInNlY3Rpb25cIjpcInBhZ2Vfc2VjdGlvbl9felFaMm9cIixcInNlY3Rpb25IZWFkZXJcIjpcInBhZ2Vfc2VjdGlvbkhlYWRlcl9fX3JhTXhcIixcInNlY3Rpb25UYWdcIjpcInBhZ2Vfc2VjdGlvblRhZ19feDh6ejNcIixcInNlY3Rpb25UaXRsZVwiOlwicGFnZV9zZWN0aW9uVGl0bGVfXzZpY180XCIsXCJyZWNpcGVHcmlkXCI6XCJwYWdlX3JlY2lwZUdyaWRfX1RSblgzXCIsXCJjYXJkXCI6XCJwYWdlX2NhcmRfX0NmX191XCIsXCJjYXJkSW1hZ2VcIjpcInBhZ2VfY2FyZEltYWdlX19hSGw5RVwiLFwiY2FyZEltZ1wiOlwicGFnZV9jYXJkSW1nX19ySFlLVFwiLFwiY2FyZEJvZHlcIjpcInBhZ2VfY2FyZEJvZHlfX1g1YmY4XCIsXCJjYXJkVGFnXCI6XCJwYWdlX2NhcmRUYWdfX2dDZUFZXCIsXCJjYXJkVGl0bGVcIjpcInBhZ2VfY2FyZFRpdGxlX19UMDhJR1wiLFwiY2FyZERlc2NcIjpcInBhZ2VfY2FyZERlc2NfX293UTF3XCJ9O1xuICAgIGlmKG1vZHVsZS5ob3QpIHtcbiAgICAgIC8vIDE3NzQ3MzM3Nzk1NjRcbiAgICAgIHZhciBjc3NSZWxvYWQgPSByZXF1aXJlKFwiL1VzZXJzL2JsYW5jYWJhcnJ1ZmV0L0RvY3VtZW50cy9QZXJzb25hbCBQcm9qZWN0cy9SZWNpcGVzL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvY29tcGlsZWQvbWluaS1jc3MtZXh0cmFjdC1wbHVnaW4vaG1yL2hvdE1vZHVsZVJlcGxhY2VtZW50LmpzXCIpKG1vZHVsZS5pZCwge1wicHVibGljUGF0aFwiOlwiL19uZXh0L1wiLFwiZXNNb2R1bGVcIjpmYWxzZSxcImxvY2Fsc1wiOnRydWV9KTtcbiAgICAgIG1vZHVsZS5ob3QuZGlzcG9zZShjc3NSZWxvYWQpO1xuICAgICAgXG4gICAgfVxuICBcbm1vZHVsZS5leHBvcnRzLl9fY2hlY2tzdW0gPSBcIjZhMzExMmE0YzdmNlwiXG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(app-pages-browser)/./app/page.module.css\n"));
+
+/***/ })
+
+});

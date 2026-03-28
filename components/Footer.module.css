@@ -1,0 +1,132 @@
+.footer {
+  background: var(--surface-container-low);
+  margin-top: var(--spacing-16);
+  padding: var(--spacing-12) var(--spacing-10) var(--spacing-6);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr 1fr;
+  gap: var(--spacing-10);
+}
+
+.brand {
+  max-width: 320px;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.15rem;
+  color: var(--on-surface);
+}
+
+.tagline {
+  margin: var(--spacing-3) 0 0;
+  font-size: 0.85rem;
+  color: var(--on-surface-muted);
+  line-height: 1.6;
+}
+
+.heading {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--on-surface);
+  margin: 0 0 var(--spacing-4);
+}
+
+.navSection {
+  padding-top: var(--spacing-1);
+}
+
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navList li {
+  margin-bottom: var(--spacing-2);
+}
+
+.navList a {
+  font-size: 0.9rem;
+  color: var(--on-surface-muted);
+  transition: color 0.2s;
+}
+
+.navList a:hover {
+  color: var(--primary);
+}
+
+.newsletter {
+  padding-top: var(--spacing-1);
+}
+
+.inputRow {
+  display: flex;
+  gap: 0;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.emailInput {
+  flex: 1;
+  padding: var(--spacing-3) var(--spacing-4);
+  border: none;
+  background: var(--surface-container);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: var(--on-surface);
+  outline: none;
+}
+
+.emailInput::placeholder {
+  color: var(--on-surface-subtle);
+}
+
+.subscribeBtn {
+  padding: var(--spacing-3) var(--spacing-6);
+  background: linear-gradient(135deg, var(--primary), var(--primary-container));
+  color: var(--on-primary);
+  border: none;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.subscribeBtn:hover {
+  opacity: 0.9;
+}
+
+.bottom {
+  max-width: var(--max-width);
+  margin: var(--spacing-10) auto 0;
+  padding-top: var(--spacing-6);
+  text-align: center;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--on-surface-subtle);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: var(--spacing-8) var(--spacing-6) var(--spacing-4);
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-8);
+  }
+}

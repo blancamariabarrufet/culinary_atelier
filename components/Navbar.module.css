@@ -1,0 +1,138 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(252, 249, 244, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-4) var(--spacing-10);
+  gap: var(--spacing-8);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  flex-shrink: 0;
+}
+
+.logoText {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: var(--on-surface);
+  letter-spacing: -0.01em;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: var(--spacing-1);
+  align-items: center;
+}
+
+.navLink {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--on-surface-muted);
+  padding: var(--spacing-2) var(--spacing-3);
+  border-radius: var(--radius-sm);
+  transition: color 0.25s ease, background 0.25s ease;
+}
+
+.navLink:hover {
+  color: var(--primary);
+  background: rgba(116, 84, 84, 0.06);
+}
+
+/* Hamburger */
+.menuBtn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: var(--spacing-2);
+}
+
+.menuIcon {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: var(--on-surface);
+  position: relative;
+  transition: background 0.2s;
+}
+
+.menuIcon::before,
+.menuIcon::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--on-surface);
+  transition: transform 0.3s ease;
+}
+
+.menuIcon::before { top: -6px; }
+.menuIcon::after { top: 6px; }
+
+.menuIconOpen {
+  background: transparent;
+}
+
+.menuIconOpen::before {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.menuIconOpen::after {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: var(--spacing-4) var(--spacing-6);
+  }
+
+  .menuBtn {
+    display: block;
+  }
+
+  .links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: rgba(252, 249, 244, 0.97);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: var(--spacing-4) var(--spacing-6);
+    gap: 0;
+  }
+
+  .linksOpen {
+    display: flex;
+  }
+
+  .navLink {
+    padding: var(--spacing-3) var(--spacing-4);
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}

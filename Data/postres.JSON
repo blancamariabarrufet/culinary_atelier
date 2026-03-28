@@ -1,0 +1,77 @@
+{
+    "tipo": "postre",
+    "recetas": [
+      { "nombre_receta": "Tiramisú", "numero_comensales": 6, "dificultad": 3, "numero_ingredientes": 6, "numero_pasos": 12,
+        "ingredientes": [
+          { "id": 1, "nombre": "queso mascarpone", "cantidad": "500", "unidad": "g" },
+          { "id": 2, "nombre": "huevos", "cantidad": "2", "unidad": "unidad" },
+          { "id": 3, "nombre": "café", "cantidad": "350", "unidad": "ml" },
+          { "id": 4, "nombre": "azúcar", "cantidad": "80", "unidad": "g" },
+          { "id": 5, "nombre": "cacao en polvo", "cantidad": "TODO", "unidad": "TODO" },
+          { "id": 6, "nombre": "bizcochos de soletilla", "cantidad": "20", "unidad": "unidad" }
+        ],
+        "pasos": [
+          { "id": 1, "descripcion": "Preparar el café y dejar enfriar." },
+          { "id": 2, "descripcion": "Separar claras y yemas." },
+          { "id": 3, "descripcion": "Montar claras." },
+          { "id": 4, "descripcion": "Batir yemas con azúcar." },
+          { "id": 5, "descripcion": "Añadir mascarpone." },
+          { "id": 6, "descripcion": "Incorporar claras." },
+          { "id": 7, "descripcion": "Mojar bizcochos." },
+          { "id": 8, "descripcion": "Montar capas." },
+          { "id": 9, "descripcion": "Repetir capas." },
+          { "id": 10, "descripcion": "Espolvorear cacao." },
+          { "id": 11, "descripcion": "Reposar en frío." },
+          { "id": 12, "descripcion": "Servir." }
+        ],
+        "tiene_recomendaciones": true,
+        "recomendaciones": "TODO"
+      },
+  
+      { "nombre_receta": "Brownie", "numero_comensales": 0, "dificultad": 2, "numero_ingredientes": 5, "numero_pasos": 5,
+        "ingredientes": [
+          { "id": 1, "nombre": "chocolate negro", "cantidad": "200", "unidad": "g" },
+          { "id": 2, "nombre": "mantequilla", "cantidad": "250", "unidad": "g" },
+          { "id": 3, "nombre": "azúcar", "cantidad": "300", "unidad": "g" },
+          { "id": 4, "nombre": "huevos", "cantidad": "4", "unidad": "unidad" },
+          { "id": 5, "nombre": "harina", "cantidad": "150", "unidad": "g" }
+        ],
+        "pasos": [
+          { "id": 1, "descripcion": "Fundir chocolate y mantequilla." },
+          { "id": 2, "descripcion": "Mezclar huevos y azúcar." },
+          { "id": 3, "descripcion": "Unir mezclas." },
+          { "id": 4, "descripcion": "Añadir harina." },
+          { "id": 5, "descripcion": "Hornear." }
+        ],
+        "tiene_recomendaciones": false,
+        "recomendaciones": "TODO"
+      },
+  
+      { "nombre_receta": "Bizcocho de yogur", "numero_comensales": 10, "dificultad": 2, "numero_ingredientes": 9, "numero_pasos": 6,
+        "ingredientes": [
+          { "id": 1, "nombre": "huevos", "cantidad": "3", "unidad": "unidad" },
+          { "id": 2, "nombre": "yogur", "cantidad": "1", "unidad": "unidad" },
+          { "id": 3, "nombre": "aceite", "cantidad": "1", "unidad": "vaso" },
+          { "id": 4, "nombre": "azúcar", "cantidad": "2", "unidad": "vasos" },
+          { "id": 5, "nombre": "harina", "cantidad": "3", "unidad": "vasos" },
+          { "id": 6, "nombre": "levadura", "cantidad": "1", "unidad": "sobre" },
+          { "id": 7, "nombre": "limón", "cantidad": "TODO", "unidad": "TODO" },
+          { "id": 8, "nombre": "azúcar glas", "cantidad": "TODO", "unidad": "TODO" },
+          { "id": 9, "nombre": "mantequilla molde", "cantidad": "TODO", "unidad": "TODO" }
+        ],
+        "pasos": [
+          { "id": 1, "descripcion": "Precalentar horno." },
+          { "id": 2, "descripcion": "Mezclar ingredientes líquidos." },
+          { "id": 3, "descripcion": "Añadir secos." },
+          { "id": 4, "descripcion": "Verter en molde." },
+          { "id": 5, "descripcion": "Hornear." },
+          { "id": 6, "descripcion": "Enfriar." }
+        ],
+        "tiene_recomendaciones": false,
+        "recomendaciones": "TODO"
+      }
+  
+      
+    ]
+  }
+  

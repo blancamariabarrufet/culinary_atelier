@@ -1,0 +1,182 @@
+{
+    "tipos_comida": {
+      "plato_principal": [
+        {
+          "nombre_receta": "Albóndigas con salsa española y arroz",
+          "numero_comensales": 0,
+          "dificultad": 3,
+          "numero_ingredientes": 13,
+          "numero_pasos": 5,
+          "ingredientes": [
+            { "id": 1, "nombre": "carne picada", "cantidad": "TODO", "unidad": "TODO" },
+            { "id": 2, "nombre": "pan rallado", "cantidad": "TODO", "unidad": "TODO" },
+            { "id": 3, "nombre": "huevo", "cantidad": "1", "unidad": "unidad" },
+            { "id": 4, "nombre": "perejil", "cantidad": "TODO", "unidad": "TODO" },
+            { "id": 5, "nombre": "leche", "cantidad": "TODO", "unidad": "TODO" },
+            { "id": 6, "nombre": "cebolla", "cantidad": "TODO", "unidad": "TODO" },
+            { "id": 7, "nombre": "zanahoria", "cantidad": "TODO", "unidad": "TODO" },
+            { "id": 8, "nombre": "ajo", "cantidad": "TODO", "unidad": "TODO" },
+            { "id": 9, "nombre": "harina", "cantidad": "1", "unidad": "cda" },
+            { "id": 10, "nombre": "vino tinto", "cantidad": "200", "unidad": "ml" },
+            { "id": 11, "nombre": "caldo", "cantidad": "400", "unidad": "ml" },
+            { "id": 12, "nombre": "arroz blanco", "cantidad": "TODO", "unidad": "TODO" },
+            { "id": 13, "nombre": "sal", "cantidad": "TODO", "unidad": "TODO" }
+          ],
+          "pasos": [
+            { "id": 1, "descripcion": "Mezclar ingredientes de las albóndigas y formarlas." },
+            { "id": 2, "descripcion": "Freír las albóndigas y reservar." },
+            { "id": 3, "descripcion": "Preparar la salsa sofriendo verduras y harina." },
+            { "id": 4, "descripcion": "Añadir vino y caldo, cocinar y triturar." },
+            { "id": 5, "descripcion": "Añadir albóndigas y servir con arroz." }
+          ],
+          "tiene_recomendaciones": false,
+          "recomendaciones": "TODO"
+        }
+      ],
+  
+      "postre": [
+        {
+          "nombre_receta": "Bizcocho de yogur",
+          "numero_comensales": 10,
+          "dificultad": 2,
+          "numero_ingredientes": 9,
+          "numero_pasos": 6,
+          "ingredientes": [
+            { "id": 1, "nombre": "huevos", "cantidad": "3", "unidad": "unidad" },
+            { "id": 2, "nombre": "yogur", "cantidad": "1", "unidad": "unidad" },
+            { "id": 3, "nombre": "aceite", "cantidad": "1", "unidad": "vaso" },
+            { "id": 4, "nombre": "azúcar", "cantidad": "2", "unidad": "vasos" },
+            { "id": 5, "nombre": "harina", "cantidad": "3", "unidad": "vasos" },
+            { "id": 6, "nombre": "levadura", "cantidad": "1", "unidad": "sobre" },
+            { "id": 7, "nombre": "ralladura de limón", "cantidad": "TODO", "unidad": "TODO" },
+            { "id": 8, "nombre": "azúcar glas", "cantidad": "TODO", "unidad": "TODO" },
+            { "id": 9, "nombre": "mantequilla para el molde", "cantidad": "TODO", "unidad": "TODO" }
+          ],
+          "pasos": [
+            { "id": 1, "descripcion": "Precalentar el horno." },
+            { "id": 2, "descripcion": "Mezclar ingredientes líquidos." },
+            { "id": 3, "descripcion": "Añadir ingredientes secos." },
+            { "id": 4, "descripcion": "Verter en molde." },
+            { "id": 5, "descripcion": "Hornear hasta que esté hecho." },
+            { "id": 6, "descripcion": "Dejar enfriar y decorar." }
+          ],
+          "tiene_recomendaciones": false,
+          "recomendaciones": "TODO"
+        },
+  
+        {
+          "nombre_receta": "Brownie",
+          "numero_comensales": 0,
+          "dificultad": 2,
+          "numero_ingredientes": 5,
+          "numero_pasos": 5,
+          "ingredientes": [
+            { "id": 1, "nombre": "chocolate negro", "cantidad": "200", "unidad": "g" },
+            { "id": 2, "nombre": "mantequilla", "cantidad": "250", "unidad": "g" },
+            { "id": 3, "nombre": "azúcar", "cantidad": "300", "unidad": "g" },
+            { "id": 4, "nombre": "huevos", "cantidad": "4", "unidad": "unidad" },
+            { "id": 5, "nombre": "harina", "cantidad": "150", "unidad": "g" }
+          ],
+          "pasos": [
+            { "id": 1, "descripcion": "Fundir chocolate y mantequilla." },
+            { "id": 2, "descripcion": "Mezclar huevos y azúcar." },
+            { "id": 3, "descripcion": "Unir ambas mezclas." },
+            { "id": 4, "descripcion": "Añadir harina." },
+            { "id": 5, "descripcion": "Hornear." }
+          ],
+          "tiene_recomendaciones": false,
+          "recomendaciones": "TODO"
+        },
+        {
+          "nombre_receta": "Tarta de Queso Clásica",
+          "numero_comensales": 8,
+          "dificultad": 3,
+          "numero_ingredientes": 7,
+          "numero_pasos": 9,
+          "ingredientes": [
+            { "id": 1, "nombre": "queso Philadelphia", "cantidad": "900", "unidad": "g" },
+            { "id": 2, "nombre": "crème fraîche", "cantidad": "200", "unidad": "ml" },
+            { "id": 3, "nombre": "azúcar", "cantidad": "250", "unidad": "g" },
+            { "id": 4, "nombre": "huevos", "cantidad": "3", "unidad": "unidad" },
+            { "id": 5, "nombre": "harina", "cantidad": "3", "unidad": "cda" },
+            { "id": 6, "nombre": "galletas", "cantidad": "1", "unidad": "paquete" },
+            { "id": 7, "nombre": "mantequilla", "cantidad": "al gusto", "unidad": "para la base" }
+          ],
+          "pasos": [
+            { "id": 1, "descripcion": "Triturar las galletas y mezclar con mantequilla derretida." },
+            { "id": 2, "descripcion": "Verter la mezcla en el molde y congelar hasta que la masa se endurezca." },
+            { "id": 3, "descripcion": "Mezclar el queso Philadelphia con el azúcar." },
+            { "id": 4, "descripcion": "Añadir la crème fraîche y batir." },
+            { "id": 5, "descripcion": "Añadir los huevos de uno en uno, mezclando con una cuchara." },
+            { "id": 6, "descripcion": "Incorporar la harina, mezclar y verter sobre la base." },
+            { "id": 7, "descripcion": "Hornear 10 minutos a 180 °C. Después bajar a 150 °C y hornear 30 minutos más." },
+            { "id": 8, "descripcion": "Apagar el horno con el pastel dentro. Sacar tras 2 horas." },
+            { "id": 9, "descripcion": "Dejar enfriar en la nevera (mínimo 12 horas)." }
+          ],
+          "tiene_recomendaciones": false,
+          "recomendaciones": ""
+        }
+      ],
+
+      "sopas": [
+        {
+          "nombre_receta": "Crema de setas",
+          "numero_comensales": 4,
+          "dificultad": 2,
+          "numero_ingredientes": 8,
+          "numero_pasos": 7,
+          "ingredientes": [
+            { "id": 1, "nombre": "setas", "cantidad": "400", "unidad": "g" },
+            { "id": 2, "nombre": "cebolla", "cantidad": "1", "unidad": "unidad" },
+            { "id": 3, "nombre": "ajo", "cantidad": "2", "unidad": "dientes" },
+            { "id": 4, "nombre": "mantequilla", "cantidad": "40", "unidad": "g" },
+            { "id": 5, "nombre": "caldo", "cantidad": "750", "unidad": "ml" },
+            { "id": 6, "nombre": "nata", "cantidad": "150", "unidad": "ml" },
+            { "id": 7, "nombre": "sal", "cantidad": "TODO", "unidad": "TODO" },
+            { "id": 8, "nombre": "pimienta", "cantidad": "TODO", "unidad": "TODO" }
+          ],
+          "pasos": [
+            { "id": 1, "descripcion": "Sofreír cebolla y ajo." },
+            { "id": 2, "descripcion": "Añadir setas y cocinar." },
+            { "id": 3, "descripcion": "Incorporar caldo." },
+            { "id": 4, "descripcion": "Triturar." },
+            { "id": 5, "descripcion": "Añadir nata." },
+            { "id": 6, "descripcion": "Ajustar sal." },
+            { "id": 7, "descripcion": "Servir." }
+          ],
+          "tiene_recomendaciones": false,
+          "recomendaciones": "TODO"
+        }
+      ],
+  
+      "ensalada": [
+        {
+          "nombre_receta": "Ensalada de pasta y pollo",
+          "numero_comensales": 0,
+          "dificultad": 1,
+          "numero_ingredientes": 8,
+          "numero_pasos": 5,
+          "ingredientes": [
+            { "id": 1, "nombre": "pasta corta", "cantidad": "300", "unidad": "g" },
+            { "id": 2, "nombre": "pechuga de pollo", "cantidad": "1", "unidad": "unidad" },
+            { "id": 3, "nombre": "tomates cherry", "cantidad": "TODO", "unidad": "TODO" },
+            { "id": 4, "nombre": "pepino", "cantidad": "TODO", "unidad": "TODO" },
+            { "id": 5, "nombre": "aceitunas negras", "cantidad": "TODO", "unidad": "TODO" },
+            { "id": 6, "nombre": "queso feta", "cantidad": "100", "unidad": "g" },
+            { "id": 7, "nombre": "aceite", "cantidad": "3", "unidad": "cda" },
+            { "id": 8, "nombre": "mostaza", "cantidad": "1", "unidad": "cdita" }
+          ],
+          "pasos": [
+            { "id": 1, "descripcion": "Cocer la pasta." },
+            { "id": 2, "descripcion": "Cocinar el pollo." },
+            { "id": 3, "descripcion": "Mezclar ingredientes." },
+            { "id": 4, "descripcion": "Preparar el aliño." },
+            { "id": 5, "descripcion": "Servir fría." }
+          ],
+          "tiene_recomendaciones": false,
+          "recomendaciones": "TODO"
+        }
+      ]
+    }
+  }
+  

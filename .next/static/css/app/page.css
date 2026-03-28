@@ -1,0 +1,194 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/page.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.page_page__556_G {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-10);
+}
+
+/* ───── Hero / Search ───── */
+.page_hero__7KFOs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: var(--spacing-16) 0 var(--spacing-12);
+}
+
+.page_heroTitle__ixXIp {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 500;
+  line-height: 1.15;
+  margin: 0 0 var(--spacing-4);
+  color: var(--on-surface);
+  max-width: 560px;
+}
+
+.page_heroSubtitle__ZW2Yq {
+  font-size: 0.95rem;
+  color: var(--on-surface-muted);
+  line-height: 1.6;
+  margin: 0 0 var(--spacing-8);
+  max-width: 440px;
+}
+
+/* ───── Sections ───── */
+.page_section__zQZ2o {
+  padding: var(--spacing-8) 0 var(--spacing-12);
+}
+
+.page_sectionHeader___raMx {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: var(--spacing-8);
+}
+
+.page_sectionTag__x8zz3 {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--on-surface-subtle);
+  margin-bottom: var(--spacing-2);
+}
+
+.page_sectionTitle__6ic_4 {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* ───── Recipe Grid ───── */
+.page_recipeGrid__TRnX3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: var(--spacing-6);
+  gap: var(--spacing-6);
+}
+
+.page_card__Cf__u {
+  display: block;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--surface-container-lowest);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.page_card__Cf__u:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-ambient);
+}
+
+.page_cardImage__aHl9E {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: var(--surface-container);
+}
+
+.page_cardImg__rHYKT {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.page_card__Cf__u:hover .page_cardImg__rHYKT {
+  transform: scale(1.05);
+}
+
+.page_cardBody__X5bf8 {
+  padding: var(--spacing-4) var(--spacing-4) var(--spacing-6);
+}
+
+.page_cardTag__gCeAY {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--on-surface-subtle);
+}
+
+.page_cardTitle__T08IG {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin: var(--spacing-2) 0 var(--spacing-1);
+  line-height: 1.3;
+}
+
+.page_cardDesc__owQ1w {
+  font-size: 0.8rem;
+  color: var(--on-surface-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ───── Responsive ───── */
+@media (max-width: 768px) {
+  .page_page__556_G {
+    padding: 0 var(--spacing-6);
+  }
+
+  .page_hero__7KFOs {
+    padding: var(--spacing-10) 0 var(--spacing-8);
+  }
+
+  .page_heroTitle__ixXIp {
+    font-size: 1.8rem;
+  }
+
+  .page_recipeGrid__TRnX3 {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: var(--spacing-4);
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./components/SearchBar.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.SearchBar_wrapper__sgIgP {
+  width: 100%;
+  max-width: 580px;
+}
+
+.SearchBar_inputWrap__Up8LI {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-3);
+  padding: var(--spacing-4) var(--spacing-6);
+  background: var(--surface-container-lowest);
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-soft);
+  transition: box-shadow 0.25s ease;
+}
+
+.SearchBar_inputWrap__Up8LI:focus-within {
+  box-shadow: var(--shadow-ambient);
+}
+
+.SearchBar_icon__jZoLH {
+  flex-shrink: 0;
+  color: var(--on-surface-subtle);
+}
+
+.SearchBar_input__4jZzZ {
+  flex: 1 1;
+  border: none;
+  background: transparent;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--on-surface);
+  outline: none;
+}
+
+.SearchBar_input__4jZzZ::placeholder {
+  color: var(--on-surface-subtle);
+}
+
